@@ -1,0 +1,95 @@
+@CHARSET "ISO-8859-1";
+#adminNav{
+    box-sizing: border-box;
+    clear: none;
+    margin: -20px auto;
+//padding: 0px;
+    height: 50px;
+    width: 100%;
+
+//    position: fixed;
+//border: 1px solid cornflowerblue;
+    font-family: "URW Chancery L";
+    background-color: white;
+//    box-shadow: 0px 5px grey;
+}
+
+#adminNav table{
+border-spacing: 15px;
+}
+
+#adminNav table tr{
+    position: center;
+    border-spacing: 0px;
+    padding: 0px;
+    margin: auto;
+}
+
+#adminNav tr a{
+//border: 2px solid black;
+    height: 35px;
+    margin: auto;
+    width: 300px;
+    font-weight: normal;
+    color: -moz-visitedhyperlinktext;
+    font-weight: bold;
+    font-size: 25px;
+    transition: font-size 1s;
+}
+
+
+#adminNav td{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 30px;
+    transition: color 2s;
+background-color: Fuchsia   ;
+}
+
+#adminNav td:hover a:hover {
+    background-color: Fuchsia   ;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+/* .containerForAdminDetails{ */
+/*     -webkit-box-sizing: border-box; */
+/*     -moz-box-sizing: border-box; */
+/*     min-width: 2000px; */
+/* //    padding-top: 20px; */
+/* //    margin-top: 270px; */
+/*     margin-left: auto; */
+/*     margin-right: auto; */
+/*     //height: auto; */
+/* //    min-height: 50em; */
+/*     background-color: white; */
+/*     box-shadow: 5px 5px gray; */
+/*     border: 1px solid gray; */
+/* } */
+
+.select-button {
+    background-color: #00FF00;
+    color: black;
+    width: 100%;
+    padding: 8px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.adminDetails h2{
+	font-size:30px;
+}
+
+.adminDetails table{
+	width:1000px;
+}
+
+.adminDetails table tr th{
+	font-size:25px;
+}
+
+.adminDetails table tr td{
+	font-size:25px;
+}

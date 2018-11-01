@@ -1,0 +1,43 @@
+@CHARSET "ISO-8859-1";
+
+.VehicleDetailsContainer{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    min-width: 2000px;
+    padding-top: 20px;
+    margin-top: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    //height: auto;
+    min-height: 50em;
+    background-color: white;
+    box-shadow: 5px 5px gray;
+    border: 1px solid gray;
+}
+
+.select-button {
+    background-color: #00FF00;
+    color: black;
+    width: 100%;
+    padding: 8px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.vehicleDetails h2{
+	font-size:30px;
+}
+
+.vehicleDetails table{
+	width:1000px;
+}
+
+.vehicleDetails table tr th{
+	font-size:25px;
+}
+
+.vehicleDetails table tr td{
+	font-size:25px;
+}
